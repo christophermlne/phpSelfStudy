@@ -47,11 +47,11 @@
 					<div class="code">
 						<h3>Code</h3>
 <pre>&lt;?php $content = "This text was output dynamically by PHP"; ?&gt;
-<p>
+&lt;p&gt;
 	&lt;?php if(isset($content)): ?&gt;
 		&lt;?php print $content; ?&gt;
 	&lt;?php endif; ?&gt;
-</p></pre>
+&lt;/p&gt;</pre>
 					</div>
 		</div>
 	</div>
