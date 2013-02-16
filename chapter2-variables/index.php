@@ -40,6 +40,9 @@
           <h2>Pursue</h2>
           <div class="output">
             <?php 
+
+              error_reporting(E_ALL|E_STRICT);
+            
               // content pulled from http://en.wikipedia.org/wiki/The_Son_of_Man
               $content = array(
                 'title' => 'The Son of Man',
