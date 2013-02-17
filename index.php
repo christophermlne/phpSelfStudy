@@ -11,6 +11,7 @@
 			<li><a href="chapter2-variables/index.php">Chapter2-Variables</a></li>
 			<li><a href="chapter3-html-forms-and-php/index.php">Chapter3-HTML-Forms-and-PHP</a></li>
 			<li><a href="chapter4-using-numbrers/index.php">Chapter4-Using-Numbrers</a></li>
+			<li><a href="sandbox/index.php">Sandbox</a></li>
 		</ul>
 	</nav>
 </body>
