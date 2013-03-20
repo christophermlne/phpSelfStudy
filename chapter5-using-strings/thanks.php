@@ -1,4 +1,3 @@
-<pre>
 <?php 
 
 $name = $_GET['name'];
@@ -8,4 +7,3 @@ print "<p>Thank you, $name</p>";
 print "<p>We will contact you at $email</p>";
 
 ?>
- </pre>
