@@ -9,10 +9,6 @@ print "<pre>";
 print_r($_POST);
 print "</pre>";
 
-// this script receives seven different values from index.php: email,password,confirm,year, terms, colours, submit 
-
-// address error management, if you want
-
 // Flag variable to track success
 $okay = TRUE;
 
