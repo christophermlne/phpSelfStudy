@@ -12,6 +12,7 @@
 			<li><a href="chapter3-html-forms-and-php/index.php">Chapter3-HTML-Forms-and-PHP</a></li>
 			<li><a href="chapter4-using-numbrers/index.php">Chapter4-Using-Numbers</a></li>
 			<li><a href="chapter5-using-strings/index.php">Chapter5-Using-Strings</a></li>
+			<li><a href="chapter6-control-structures/index.php">Chapter6-Control-Structures</a></li>
 			<li><a href="sandbox/index.php">Sandbox</a></li>
 		</ul>
 	</nav>
