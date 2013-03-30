@@ -52,6 +52,10 @@
           What do these operators mean?
           <ul><li>&& -- AND</li><li>|| -- OR</li><li>! -- NOT</li></ul>
         </li>
+        <li>What is the syntax of a for loop?
+          <ul><li>for ($i=0; $i < ; $i++) { # code... }
+        </li></ul>
+        </li>
       </ol>
     </div>
     <div class="pursue">
@@ -75,11 +79,38 @@
               Email Address:<br /><input type="text" name="email" size="30"><br />
               Password:<br /><input type="password" name="password" size="20"><br />
               Confirm Password:<br /><input type="password" name="confirm" size="20"><br />
-              Year You Were Born: <br /><input type="text" name="year" value="YYYY"><br />
+              
+              <p>Date of Birth:<br />
+                <select name="month">
+                  <option value="">Month</option>
+                  <option value="1">January</option>
+                  <option value="2">February</option>
+                  <option value="3">March</option>
+                  <option value="4">April</option>
+                  <option value="5">May</option>
+                  <option value="6">June</option>
+                  <option value="7">July</option>
+                  <option value="8">August</option>
+                  <option value="9">September</option>
+                  <option value="10">October</option>
+                  <option value="11">November</option>
+                  <option value="12">December</option>
+                </select>&nbsp;
+                <select name="day">
+                  <option value="">Day</option>
+                  <?php 
+                    for ($i=1; $i <= 31; $i++) { 
+                      print "<option value=\"$i\">$i</option>\n";
+                    }
+                   ?>
+                </select>&nbsp;
+                <input type="text" name="year" value="YYYY" size="4"><br />
               Favorite Color:<br />
               <select name="colours">
                 <option value="">Pick One</option>  
+                <option value="red">Red</option>
                 <option value="green">Green</option>
+                <option value="blue">Blue</option>
                 <option value="yellow">Yellow</option>
               </select><br /> 
               <input type="checkbox" name="terms" value="Yes"> I agree to the terms (Whatever they may be). <br />
