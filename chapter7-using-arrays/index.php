@@ -17,7 +17,7 @@
         </li>
         <li>When should you use quotation marks for an array's key or value? When shouldn't you?
         <ul>
-          <li>A</li>
+          <li>When the key or value is a variable or is numeric, do not use quatation marks.</li>
         </ul>
         </li>
         <li>How do you print a specific array element? How do you print every element in an array?
@@ -38,17 +38,17 @@
         </li>
         <li>When must you use curly brackets for printing array elements?
         <ul>
-          <li>A</li>
+          <li>When inside of a print statement, curly braces prevent conflict with the quotes in the print syntax.</li>
         </ul>
         </li>
         <li>What is the difference between the sort() and asort() functions? Between sort() and rsort()?
         <ul>
-          <li>A</li>
+          <li>asort() preserves the key-values, while sort() does not. sort() and rsort() are simply the reverse of each other. Neither preserves key-value pairs.</li>
         </ul>
         </li>
         <li>What is the syntax for explode()? for implode()? 
         <ul>
-          <li>A</li>
+          <li>implode('joiner', $array). explode('sep', $string);</li>
         </ul>
         </li>
       </ol>
