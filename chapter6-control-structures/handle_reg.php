@@ -12,8 +12,6 @@ print "</pre>";
 // Flag variable to track success
 $okay = TRUE;
 
-// If there were no errors, print a success message
-
 // validate the email address
 if(empty($_POST['email'])) {
 	print '<p class="error">Please enter your email address</p>';
@@ -80,7 +78,8 @@ if (!isset($_POST['terms'])) {
  		$okay = FALSE;
  		break;
  }
-
+ 
+// If there were no errors, print a success message
 if ($okay == TRUE) {
 	print '<p>You have been successfully registered (but not really).</p>';
 	print "<p>You will turn $age this year.</p>";
