@@ -1,13 +1,20 @@
 <?php 
 
-//turn the incoming string into an array
-$words_array = explode(' ', $_POST['words']);
+if (isset($_POST['words']) && $_POST['words'] != '') {
+	//turn the incoming string into an array
+	$words_array = explode(' ', $_POST['words']);
 
-//sort the array
-sort($words_array);
+	//sort the array
+	sort($words_array);
 
-// turn the array back into a string
-$string_words = implode(', ', $words_array);
+	// turn the array back into a string
+	$string_words = implode(', ', $words_array);
+
+	// if flag exists then it is safe to output;
+	$flag = TRUE;
+
+}
+
 ?>
 <!doctype html>
 <html lang="en">
@@ -17,7 +24,17 @@ $string_words = implode(', ', $words_array);
  </head>
  <body>
  	<?php 
- 	print "<p>An alphabetized list of your words is: $string_words</p>"
+ 	if (isset($flag)) {
+ 		print "<p>An alphabetized list of your words is: </p>";
+ 		print '<ul>';
+ 		// PURSUE: print each list item without using implode();
+ 		foreach ($words_array as $key => $value) {
+ 			print '<li>' . $value . '</li>';
+ 		}
+ 		print '</ul>';
+ 	} else {
+ 		print 'No words to sort! Go back and add some';
+ 	}
  	 ?>
  </body>
  </html>

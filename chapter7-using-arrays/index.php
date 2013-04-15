@@ -57,9 +57,30 @@
           <h2>Pursue</h2>
           <ol>
 
-            <li>Q
+            <li>Check the manual for PHP related functions
               <ul>
-                <li>A</li>
+                <li>array_key_exists(): checks to see if an index is in an array</li>
+                <li>array_search: checks for given value and returns key is successful</li>
+                <li>in_array(): checks to see if a value is in an array</li>
+              </ul>
+            </li>
+            <li>Rewrite soups2.php
+              <ul>
+                <li>See <a href="soups2.php">soups2.php</a></li>
+              </ul>
+            </li>
+            <li>Create another script that creates and displays a multi-dimensional array.
+              <ul>
+                <li>
+                  see <a href="multi-dimensional-array.php">multi-dimensional-array.php</a>
+                </li>
+              </ul>
+            </li>
+            <li>Rewrite list.php so that so that it uses foreach instead of implode(), but still prints each sorted word on its own line in the browser. Also add some validation so that it only attempts to parse and sort the string if it has a value.
+              <ul>
+                <li>
+                  see <a href="list.php">list.php</a>
+                </li>
               </ul>
             </li>
 
