@@ -14,6 +14,7 @@
 			<li><a href="chapter5-using-strings/index.php">Chapter5-Using-Strings</a></li>
 			<li><a href="chapter6-control-structures/index.php">Chapter6-Control-Structures</a></li>
 			<li><a href="chapter7-using-arrays/index.php">Chapter7-Using-Arrays</a></li>
+			<li><a href="chapter8-creating-web-applications/index.php">Chapter8-Creating-Web-Applications</a></li>
 			<li><a href="sandbox/index.php">Sandbox</a></li>
 		</ul>
 	</nav>
