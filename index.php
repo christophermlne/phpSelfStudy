@@ -16,6 +16,7 @@
 			<li><a href="chapter7-using-arrays/index.php">Chapter7-Using-Arrays</a></li>
 			<li><a href="chapter8-creating-web-applications/index.php">Chapter8-Creating-Web-Applications</a></li>
 			<li><a href="chapter9-cookies-and-sessions/index.php">Chapter9-Cookies-and-Sessions</a></li>
+			<li><a href="chapter10-creating-functions/index.php">Chapter10-Creating-Functions</a></li>
 			<li><a href="sandbox/index.php">Sandbox</a></li>
 		</ul>
 	</nav>
